@@ -800,7 +800,7 @@ document.querySelectorAll('.sbfill').forEach(f=>obs.observe(f));
         btn.innerHTML = "Failed to Send ❌";
         btn.disabled = false;
         console.error("EmailJS Error:", err);
-        alert("Message send nahi hua: " + JSON.stringify(err));
+        alert("Message not send : " + JSON.stringify(err));
       });
   });
 </script>
